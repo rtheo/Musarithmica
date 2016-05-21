@@ -63,7 +63,7 @@ used by information engineers one can also separate odd and even spectral coeffi
  Given a bit-block counter, each and every word is analyzed into its constituent alternating bolcks of zeros and ones.<br>
  For instance, "11010100" -> [2, -1, 1, -1, 1, -2]. As this is always an alternating sequence it can be turned into its<br>
  "monic" form by extracting a sign bit in front as 0/1. Normalizing the above with the sum-of-squares and taking them as<br>
- spectral coefficients allows writing  lesser frequencies in a harmonic interval at the same time guaranteeing the isospectral<br> character of the encoding. This method though is difficult to emulate for the rule application and is not<br>
+ spectral coefficients allows writing  lesser frequencies in a harmonic interval at the same time guaranteeing the isospectral<br> character of the encoding. This method though is difficult to emulate for the rule application and is not
  followed here.
 
 Building a particular (continuous) dynamical system able to apply the particular "program" given as the harmonic encoding<br>
