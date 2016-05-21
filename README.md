@@ -70,4 +70,5 @@ Building a particular (continuous) dynamical system able to apply the particular
 of the original CA rule is a different engineering problem and could be dealt in a variety of ways using eg. vector coding <br>
 and generic Neural Network techniques. For building an emulator is enough to take all appropriate frequency shifts via a single<br> loop although this is neither optimal nor the speediest implementation possible. It suffices though to give the<br>
 listener a feeling of how does a Turing complete rule like 
-<a href="https://en.wikipedia.org/wiki/Rule_110">"110"</a> sounds like. It also means that for small cell arrays fitting<br> into an audible spectrum via an equitempered harmonic tuning, one could really use an orchestra/choir to actually<br> perform the computation!
+<a href="https://en.wikipedia.org/wiki/Rule_110">"110"</a> sounds like. It also means that for small cell arrays fitting<br> into an audible spectrum via an equitempered harmonic tuning, one could really use an orchestra/choir to actually perform<br>
+a computation!
