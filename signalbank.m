@@ -7,7 +7,7 @@ words = fliplr( ff2n(6) );
 for i=1:64 
      w=words(i,:); 
      if sum(w)==3 && sum(w(1:2))*sum(w(3:4))*sum(w(5:6)) 
-         s = signal( (f(k1:k2).*w), t ); 
-         plot(s), sound(s), pause(0.2)
+         s = signal( (f(k1:k2).*w), t ); psd(s), pause
+         plot(s), sound(s)
      end 
  end
