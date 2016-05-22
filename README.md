@@ -1,9 +1,7 @@
 # Musarithmica: The Sound of Universal Computation
-musarithmica.m (a forthcoming CA synthi analog computer emulator)
 
 The 'musarithmica' code for the complete transcription of any automaton in to a musical score is a future project<BR>
-It's a generalization of the previous technique used in CAdynamics. Motivation behind this project is explained in the<br> 
-technical notes.<br>
+It's an attempt to generalizing some previous technique used in CAdynamics. Motivation behind this project is explained in<br> the technical notes.<br>
 
 <b>Technical Notes</b>
 
