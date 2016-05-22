@@ -1,6 +1,7 @@
 function [f, fodd, feven] = scales
 % For scientific pitch notation consult 
 % https://en.wikipedia.org/wiki/Scientific_pitch_notation
+% For the Pythagorean scale https://en.wikipedia.org/wiki/Pythagorean_tuning
 % Produce whole pitch frequency table (64-bit isentropic register)
 f0 = 440; freqs = 2.^((-45:82)/12)*f0; 
 % correct machine-E innacurracies (checked only in version 2007b with XP)
