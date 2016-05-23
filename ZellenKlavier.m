@@ -37,12 +37,12 @@ for i=1:steps
     keycopy1 = circshift( keys, [2 0] );
     keycopy2 = circshift( keys, [-2 0] );
     for j=1:64
-        tones = keys( k, : ) + 2*keycopy1( k, :) + 4*keycopy2( k, :); sound( tones, fsplay ), 
-        ptr = 1+ceil( max(tones) ); disp(ptr), flag= r(ptr); rfilter = ( flag~=0 ); % primitive classifier
+        tones = keys( k, : ) + 2*keycopy1( k, :) + 4*keycopy2( k, :); sound( [tones; fliplr(tones)]', fsplay ), 
+        ptr = 1+ceil( max(tones) ); flag= r(ptr); rfilter = ( flag~=0 ); % primitive classifier
         if rfilter,
             keys( k, : ) = ( flag>0 )*sbank(k, : ); 
             keys( k+1, : ) = ( flag<0 )*csbank( k+1, : ); 
-            sound( [keys( k, : ) fliplr(keys( k, : ))], fsplay )            
+            sound( [keys( k, : ); fliplr(keys( k, : ))]', fsplay )            
         end        
         k = k + 1;
     end
