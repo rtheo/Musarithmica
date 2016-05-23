@@ -1,7 +1,10 @@
 # Musarithmica: The Sound of Universal Computation
 The title of the project is a tribute to the great master <a href="https://en.wikipedia.org/wiki/Athanasius_Kircher">Athanasius Kircher</a> who in a sense preceded Babbage to a limited extend with his 
-<a href="https://en.wikipedia.org/wiki/Arca_Musarithmica">Arca Musarithmica</a> algorithm. The 'musarithmica' code for the<br> transcription of a automaton in to a single signal is a future project requiring special fitler design. It's an attempt in<br> generalizing some previous technique used in CAdynamics. Motivation behind this project is explained in the technical notes.<br> 
-At the moment what is offered includes the following:
+<a href="https://en.wikipedia.org/wiki/Arca_Musarithmica">Arca Musarithmica</a> algorithm. 
+
+The 'musarithmica' code for the transcription of a automaton in to a single signal is a future project requiring special<br>
+fitler design. It's an attempt in generalizing some previous technique used in CAdynamics. Motivation behind this project is<br> 
+explained in the technical notes. At the moment what is offered includes the following:
 
 ZellenKlavier ("Cellular" Piano): A lonely CA singing the Cyclic Tag Blues. The name choice was a tribute to the other, rather<br> (in)famous <a href="https://en.wikipedia.org/wiki/Cat_organ">invention</a> by Kircher.
 Try it with rule 110 to get the feeling of Turing completeness<br>
