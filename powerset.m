@@ -1,6 +1,7 @@
 function powerset(n, k, duration, fs)
 % The sound of powersets in
-% isentropic code
+% isentropic code. The higher n, 
+% the lower k for normal hearing
 if nargin<4, fs = 44100; end
 if nargin<3, duration = 1; end
 if nargin<2, k = 4; end
