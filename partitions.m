@@ -32,7 +32,7 @@ for i=1:setdim
         fptr = zeros(1, 128);
         fptr(firstpitch:fgap:lastpitch) = seq(2:end);
         sigr = signal( f.*fptr, t );            
-        soundsc( [sigl, sigr], fs )
+        soundsc( [sigl; sigr]', fs )
     end
 end
 end
