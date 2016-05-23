@@ -5,7 +5,10 @@ function [cd, cv, cs, cu] = bitblocks(s)
 % -----------------------------------------------------
 % RETURNS :
 % cv : cluster vector, cd : cluster dim, cs : cumulant, cu : uniqueness
-
+%
+% T. E. Raptis, (c) 2010
+% http://cag.dat.demokritos.gr
+% rtheo@dat.demokritos.gr
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % change representation
     s = 2*s - 1;

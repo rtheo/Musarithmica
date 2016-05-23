@@ -1,4 +1,4 @@
-function ZellenKlavier( cells, rule, steps, cutoff, duration, fs, fsplay )
+function WellenKlavier( cells, rule, steps, cutoff, duration, fs, fsplay )
 if nargin < 7, fsplay = 44100; end
 if nargin < 6, fs = 2^13; end
 if nargin < 5, duration = 1; end
@@ -37,7 +37,7 @@ for i=1:steps
             keys( k+1, : ) = ( flag<0 )*csbank( k+1, : ); 
             %sound( [keys( k, : ) keys( k+1, : )], fsplay )
         end        
-        sound( [keys( k, : ), fliplr(keys( k, : ))], fsplay )
+        sound( [keys( k, : ) keys( k+1, : )], fsplay )
         k = k + 1;
     end
 end
