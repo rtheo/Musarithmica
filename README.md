@@ -2,6 +2,16 @@
 
 The 'musarithmica' code for the complete transcription of any automaton in to a musical score is a future project<BR>
 It's an attempt to generalizing some previous technique used in CAdynamics. Motivation behind this project is explained in<br> the technical notes.<br>
+At the moment what is offered includes the following:
+
+ZellenKlavier ("Cellular" Piano): A lonely CA singing the Cyclic Tag Blues. The name choice was a tribute to the other, rather<br> (in)famous <a href="https://en.wikipedia.org/wiki/Cat_organ">invention</a> by Kircher<br>
+Try it with rule 110 to get the feeling of Turing completeness<br>
+
+powerset: example code of a polyphonic auto-composer based on isentropic encodings of sets of bit strings.
+
+partitions: Similar with powerset for the case of integer partitions of which coefficients admit an isospectral encoding.
+
+The variety of parameters in the above allows great flexibility in the audible results.
 
 <b>Technical Notes</b>
 
