@@ -10,12 +10,8 @@ if nargin < 6, fs = 2^13; end
 if nargin < 5, duration = 1; end
 if nargin < 4, cutoff = 128; end
 clc, close all
-% Produce whole pitch frequency table for 64-bit isentropic word code
-f0 = 440; freqs = 2.^((-45:82)/12)*f0;  fbeat = 2^(-48/12)*f0;
-% Correct machine-E innacurracies (checked only in version 2007b with 32-bit running XP)
-f1 = floor(freqs(1:44)) + floor( 10*mod( freqs(1:44), 1 ) )/10;
-f2 =  floor(freqs(46:128)) + floor( 10*mod( freqs(46:128), 1 ) )/10;
-freqs = [f1, f0, f2]; freqs = freqs( 1+mod( (0:127), cutoff) ); % apply cutoff for random compositions
+freqs = scale;
+freqs = freqs( 1+mod( (0:127), cutoff) ); % apply cutoff for random compositions
 % Expand cells for isentropic encoding
 % You may comment line 22 in a 64-bit machine and increase exponents in 21 as (0:63)
 cells = ceil(mod(log2(bitxor(cbytes(1), cbytes(1)+2.^(0:31))), 1)); % division-free cell bits exractor 
