@@ -9,9 +9,9 @@ explained in the technical notes. At the moment what is offered includes the fol
 ZellenKlavier ("Cellular" Piano): A lonely CA singing the Cyclic Tag Blues. The name choice was a tribute to the other, rather<br> (in)famous <a href="https://en.wikipedia.org/wiki/Cat_organ">invention</a> by Kircher.
 Try it with rule 110 to get the feeling of Turing completeness<br>
 
-powerset: example code of a polyphonic auto-composer based on isentropic encodings of sets of bit strings.
+Powerset: example code of a polyphonic auto-composer based on isentropic encodings of sets of bit strings.
 
-partitions: Similar with powerset for the case of integer partitions of which coefficients admit an isospectral encoding.
+Partitions: Similar with powerset for the case of integer partitions of which coefficients admit an isospectral encoding.
 
 The variety of parameters in the above allows great flexibility in the audible results.
 
