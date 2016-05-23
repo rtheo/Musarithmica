@@ -1,4 +1,5 @@
 function powerset(n, k, duration, fs)
+% Polyphony of Integer Powersets
 % The sound of powersets in
 % isentropic code. The higher n, 
 % the lower k for normal hearing
