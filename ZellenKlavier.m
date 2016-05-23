@@ -1,4 +1,4 @@
-function WellenKlavier( cbytes, rule, steps, cutoff, duration, fs, fsplay )
+function ZellenKlavier( cbytes, rule, steps, cutoff, duration, fs, fsplay )
 % Cellular Piano: the sound of 1D CA isospectrally encoded in freq. domain 
 % cbytes := array of 2 32-bit large integers or a large 64-bit integer for cell array, 
 % depending on the machine precision.
