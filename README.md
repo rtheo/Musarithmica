@@ -1,10 +1,11 @@
 # Musarithmica: The Sound of Universal Computation
-
+The title of the project is a tribute to the great master <a href="https://en.wikipedia.org/wiki/Athanasius_Kircher">Athanasius Kircher</a> who in a sense preceded Babbage to a limited extend<br> 
+with his <a href="https://en.wikipedia.org/wiki/Arca_Musarithmica">Arca Musarithmica</a> algorithm<br>.
 The 'musarithmica' code for the complete transcription of any automaton in to a musical score is a future project<BR>
 It's an attempt to generalizing some previous technique used in CAdynamics. Motivation behind this project is explained in<br> the technical notes.<br>
 At the moment what is offered includes the following:
 
-ZellenKlavier ("Cellular" Piano): A lonely CA singing the Cyclic Tag Blues. The name choice was a tribute to the other, rather<br> (in)famous <a href="https://en.wikipedia.org/wiki/Cat_organ">invention</a> by Kircher<br>
+ZellenKlavier ("Cellular" Piano): A lonely CA singing the Cyclic Tag Blues. The name choice was a tribute to the other, rather<br> (in)famous <a href="https://en.wikipedia.org/wiki/Cat_organ">invention</a> by Kircher.
 Try it with rule 110 to get the feeling of Turing completeness<br>
 
 powerset: example code of a polyphonic auto-composer based on isentropic encodings of sets of bit strings.
@@ -15,11 +16,10 @@ The variety of parameters in the above allows great flexibility in the audible r
 
 <b>Technical Notes</b>
 
-The title of the code is a tribute to the great master <a href="https://en.wikipedia.org/wiki/Athanasius_Kircher">Athanasius Kircher</a> who in a sense preceded Babbage to a limited extend<br> 
-with his <a href="https://en.wikipedia.org/wiki/Arca_Musarithmica">Arca Musarithmica</a> algorithm<br>.
-
-The purpose here is exactly the opposite and it is about a proof-of-concept on the existence of a mapping of the set<br> 
+This is a project about a proof-of-concept on the existence of a mapping of the set<br> 
 of all computations into a subset of harmonic analysis. This requires recognizing three principles:<br>
+It also represents an effort to counterfeit this unnoying habit of requiring "axiomatically" the existence of a "binary"<br>
+medium in order to build a computational medium. Instead, we can do it with waves but with no ordinary encodings<br>
 
 A. The existence of constant maximal entropic encodings in a Fourier domain signifies a deviation from ordinary Shannon<br> channels where capacity is no more tied up solely to the S/N ratio (SNR becomes here a freely adjustable parameter given by the<br>
 unique spectra lcoefficient apart from the exact message encoded). The essence of this can be understood with analogical<br>
