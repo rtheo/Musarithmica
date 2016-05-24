@@ -1,4 +1,4 @@
-function [f, fodd, feven] = scales
+function [f, fodd, feven] = scale
 % For scientific pitch notation consult 
 % https://en.wikipedia.org/wiki/Scientific_pitch_notation
 % For the Pythagorean scale https://en.wikipedia.org/wiki/Pythagorean_tuning
